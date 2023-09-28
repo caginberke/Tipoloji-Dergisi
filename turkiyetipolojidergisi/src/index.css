@@ -1,0 +1,41 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  margin: 0rem;
+  overflow: hidden;
+}
+
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(0%, -50%); 
+  user-select: none; 
+}
+
+#image-track > a > .image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% center;
+}
+
+.sosyalikon,
+.fa-envelope {
+  color: white;
+  font-size: 25px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.fa-instagram {
+  margin-right: 40px;
+}
+
+.fa-twitter {
+  margin-right: 75px;
+}
